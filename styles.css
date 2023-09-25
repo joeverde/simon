@@ -1,0 +1,145 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+table {
+  font-family: 'Press Start 2P', cursive;
+  margin: 0 auto;
+  text-align: center;
+  /* border-collapse: collapse;
+  width: 100%; */
+}
+
+table th {
+  width: 5%;
+  background-color: #f2f2f2;
+  padding: 5px;
+  color: #011F3F;
+}
+
+/* Style table rows */
+tr {
+    border-bottom: 1px solid #ddd; /* Add horizontal border */
+    color:#ddd;
+}
+
+/* Change row background color on hover */
+tr:hover {
+  color: #011F3F;
+  background-color: #ddd;
+
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+#deleteBtn {
+  margin-top: 10px;
+  border-color: red;
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.3em;
+
+  opacity: 0.8;
+}
+
+#deleteBtn:hover {
+  opacity: 1;
+}
+
+#startBtn:hover {
+  opacity: 1;
+}
+
+#startBtn {
+  margin-top: 10px;
+  padding: 40px;
+  border-radius: 5px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.3em;
+  opacity: 0.8;
+}
+
+.disabledStart {
+  background-color: #cccccc;
+  border-color: #cccccc;
+  color: #666666;
+  pointer-events: none;
+}
+
+.enabledStart {
+    border-color: peru;
+    background-color: peru;
+    pointer-events: auto;
+    color: white;
+}
+
+#leaderboardBtn {
+  margin-top: 10px;
+  border-color: orange;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.3em;
+  opacity: 0.8;
+}
+
+#leaderboardBtn:hover {
+  opacity: 1;
+}
